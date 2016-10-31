@@ -1,0 +1,12 @@
+<launch>
+
+  
+
+  <include file="$(find moveit)/launch/husky_ur5_planning_execution.launch" />
+
+  <include file="$(find moveit)/launch/moveit_rviz.launch" />
+
+
+
+
+</launch>
